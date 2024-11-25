@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans 3", sans-serif;
+    color: #0E0E0E;
+}
+
+/* Links */
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #0E0E0E;
+}
+
+a:visited {
+    color: #0E0E0E;
+}
+
+/* Navigation */
+
+nav {
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 1em;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 1em;
+    margin: 0 0.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#nav-logo {
+    width: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+#nav-title {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Main article */
+
+.clickable-link {
+    display: block;
+}
+.main-article {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0.8em;
+    background-image: url("../images/blog-image-hero.png");
+    background-size: cover;
+    color: white;
+}
+
+.main-article-date {
+    margin-top: 8em;
+}
+
+.main-article h1 {
+    font-size: 3rem;
+    padding: 0.25em 0;
+    line-height: 1;
+}
+
+.main-article p {
+    max-width: 85ch;
+}
+
+/* Grid section */
+
+.grid-container {
+    width: 95%;
+    padding: 1em 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1em;
+}
+
+.blog-post {
+    width: 100%;
+}
+
+.blog-image {
+    width: 100%;
+    padding: 1em 0;
+}
+
+.article-header {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Footer */
+
+footer {
+    padding: 2em 0;
+    background-color: #202020;
+    color: white;
+}
+
+.footer-text {
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text h3 {
+    font-size: 1.2rem;
+}
+
+.footer-text p {
+    color: #D7D7D7;
+}
